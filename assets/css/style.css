@@ -2383,6 +2383,7 @@ p.form-message.error.form-message.error {
   width: 100%;
   background: none 50% no-repeat;
   background-size: cover;
+	padding-bottom: 50px;
 }
 
 .slider img {
@@ -2399,12 +2400,21 @@ p.form-message.error.form-message.error {
   height: 0;
 }
 
+.CSSgal .prevNext i{
+  
+    color: #754ef9;
+    font-size: 3em;
+    top: 10%;
+    left: 7px;
+    position: absolute;
+}
+
+
 .CSSgal .prevNext > div+div {
   visibility: hidden; /* Hide all but first P/N container */
 }
 
 .CSSgal .prevNext a {
-  background: #020202;
   position: absolute;
   width:       60px;
   height:      60px;
@@ -2505,32 +2515,33 @@ p.form-message.error.form-message.error {
   -webkit-transition: 0.3s;
           transition: 0.3s;
 }
-.CSSgal .bullets > a+a {
-  background: rgba(114, 114, 114, 0.5); /* Dim all but first */
-}
+
 .CSSgal .bullets > a:hover {
-  background: rgba(63, 63, 63, 0.7) !important;
+  background: #ffffff !important;
+  color: #000;
+  font-weight: 700;
 }
 
 /* NAVIGATION BUTTONS */
 /* ALL: */
-.CSSgal >s:target ~ .bullets >* {      background: rgba(83, 83, 83, 0.5);}
+
 /* ACTIVE */
-#s1:target ~ .bullets >*:nth-child(1) {color: rgba(255, 255, 255,   1);}
-#s2:target ~ .bullets >*:nth-child(2) {color: rgba(255, 255, 255,   1);}
-#s3:target ~ .bullets >*:nth-child(3) {color: rgba(255, 255, 255,   1);}
-#s4:target ~ .bullets >*:nth-child(4) {color: rgba(255, 255, 255,   1);}
-#s5:target ~ .bullets >*:nth-child(5) {color: rgba(255, 255, 255,   1);}
-#s6:target ~ .bullets >*:nth-child(6) {color: rgba(255, 255, 255,   1);}
-#s7:target ~ .bullets >*:nth-child(7) {color: rgba(255, 255, 255,   1);}
-#s8:target ~ .bullets >*:nth-child(8) {color: rgba(255, 255, 255,   1);}
-#s9:target ~ .bullets >*:nth-child(9) {color: rgba(255, 255, 255,   1);}
-#s10:target ~ .bullets >*:nth-child(10) {color: rgba(255, 255, 255,   1);}
-#s11:target ~ .bullets >*:nth-child(11) {color: rgba(255, 255, 255,   1);}
-#s12:target ~ .bullets >*:nth-child(12) {color: rgba(255, 255, 255,   1);}
-#s13:target ~ .bullets >*:nth-child(13) {color: rgba(255, 255, 255,   1);}
-#s14:target ~ .bullets >*:nth-child(14) {color: rgba(255, 255, 255,   1);}
+#s1:target ~ .bullets >*:nth-child(1) {color: #754ef9}
+#s2:target ~ .bullets >*:nth-child(2) {color: #754ef9}
+#s3:target ~ .bullets >*:nth-child(3) {color: #754ef9}
+#s4:target ~ .bullets >*:nth-child(4) {color: #754ef9}
+#s5:target ~ .bullets >*:nth-child(5) {color: #754ef9}
+#s6:target ~ .bullets >*:nth-child(6) {color: #754ef9}
+#s7:target ~ .bullets >*:nth-child(7) {color: #754ef9}
+#s8:target ~ .bullets >*:nth-child(8) {color: #754ef9}
+#s9:target ~ .bullets >*:nth-child(9) {color: #754ef9}
+#s10:target ~ .bullets >*:nth-child(10) {color: #754ef9}
+#s11:target ~ .bullets >*:nth-child(11) {color: #754ef9}
+#s12:target ~ .bullets >*:nth-child(12) {color: #754ef9}
+#s13:target ~ .bullets >*:nth-child(13) {color: #754ef9}
+#s14:target ~ .bullets >*:nth-child(14) {color: #754ef9}
 /* More slides? Add here more rules */
+
 
 
 
