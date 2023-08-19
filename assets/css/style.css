@@ -147,6 +147,9 @@ p {
   p {
     font-size: 15px;
   }
+  .bullets {
+    display: none;
+  }
 }
 
 .bg_cover {
